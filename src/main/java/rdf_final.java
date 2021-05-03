@@ -405,7 +405,7 @@ public class rdf_final {
             if (!stp.get(sub).contains(pred)) {
                 stp.get(sub).add(pred);
             }
-            stp.get(sub).add(pred);
+ //           stp.get(sub).add(pred);
             List<String> list = new ArrayList<String>();
             list.add(sub);
             list.add(pred);
